@@ -1,9 +1,9 @@
 {
   "name": "music-discoverer",
   "version": "1.0.0",
+  "description": "Recommender of songs related to the artists that the user listens to frequently.",
   "author": "Victor Ferreira <victor@otavioferreira.com.br>",
-  "description": "",
-  "license": "ISC",
+  "license": "MIT",
   "keywords": [],
   "main": "index.js",
   "scripts": {
@@ -14,6 +14,8 @@
   },
   "dependencies": {
     "axios": "^0.21.1",
+    "dotenv": "^8.2.0",
+    "nedb": "^1.8.0",
     "qs": "^6.9.6"
   },
   "devDependencies": {
