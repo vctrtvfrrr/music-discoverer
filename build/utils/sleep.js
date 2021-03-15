@@ -6,7 +6,6 @@ Object.defineProperty(exports, "__esModule", {
 exports["default"] = void 0;
 
 function sleep(sec) {
-  console.log("Waiting...");
   return new Promise(function (resolve) {
     return setTimeout(resolve, sec * 1000);
   });

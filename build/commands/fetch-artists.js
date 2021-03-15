@@ -67,7 +67,7 @@ var FetchArtistsCommand = /*#__PURE__*/function (_Command) {
                 }
 
                 _context.next = 9;
-                return (0, _sleep["default"])(2);
+                return (0, _sleep["default"])(1.2);
 
               case 9:
                 currentPage++;

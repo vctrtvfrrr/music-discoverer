@@ -15,7 +15,7 @@ class FetchArtistsCommand extends Command {
     let mustContinue = true;
 
     do {
-      if (currentPage > 0) await sleep(2);
+      if (currentPage > 0) await sleep(1.2);
 
       currentPage++;
       this.log("Querying the page", currentPage);
