@@ -1,2 +1,4 @@
-src/database/*.db
+node_modules
+*-debug.log
+*-error.log
 .env
